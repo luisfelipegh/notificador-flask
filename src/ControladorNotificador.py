@@ -1,6 +1,6 @@
-from .notificadores.NotificadorFacebook import NotificadorFacebook
-from .notificadores.NotificadorCorreo import NotificadorCorreo
-from .notificadores.NotificadorSMS import NotificadorSMS
+from src.notificadores.NotificadorFacebook import NotificadorFacebook
+from src.notificadores.NotificadorCorreo import NotificadorCorreo
+from src.notificadores.NotificadorSMS import NotificadorSMS
 
 class ControladorNotificador():
 
