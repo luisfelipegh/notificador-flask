@@ -1,9 +1,9 @@
 from src.InterfaceNotificador import InterfaceNotificador
 
-class NotificadorSMS(InterfaceNotificador):
+class NotificadorEmpresarial(InterfaceNotificador):
 
     def __init__(self):
         super().__init__()
     
     def enviar(self, mensaje):
-        return 'mensaje enviado de SMS'
+        return 'mensaje enviado Empresarial'

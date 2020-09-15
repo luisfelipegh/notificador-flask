@@ -1,6 +1,7 @@
 from src.notificadores.NotificadorFacebook import NotificadorFacebook
 from src.notificadores.NotificadorCorreo import NotificadorCorreo
 from src.notificadores.NotificadorSMS import NotificadorSMS
+from src.notificadores.NotificadorEmpresarial import NotificadorEmpresarial
 
 class ControladorNotificador():
 
@@ -9,7 +10,8 @@ class ControladorNotificador():
         self.notificadores = {
             "Correo" : NotificadorCorreo,
             "Facebook" : NotificadorFacebook,
-            "SMS" : NotificadorSMS
+            "SMS" : NotificadorSMS,
+            "Empresarial" : NotificadorEmpresarial
         }
 
     def crearNotificadores(self,ListaNotificaciones):

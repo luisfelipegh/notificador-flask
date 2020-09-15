@@ -4,7 +4,7 @@ import smtplib
 class NotificadorCorreo(InterfaceNotificador):
 
     def __init__(self):
-        pass
+        super().__init__()
     
     def enviar(self, mensaje):
 
